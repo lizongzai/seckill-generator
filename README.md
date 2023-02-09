@@ -92,6 +92,7 @@ Java电商秒杀系统项目中的代码生成器
 </project>
 
 ## CodeGenerator
+
 package com.example.seckillgenerator;
 
 import com.baomidou.mybatisplus.core.exceptions.MybatisPlusException;
@@ -157,7 +158,7 @@ public class CodeGenerator {
     // 包配置
     PackageConfig pc = new PackageConfig();
     //pc.setModuleName(scanner("模块名"));
-    pc.setParent("com.example")
+    pc.setParent("com.example.seckill")
         .setEntity("pojo")
         .setMapper("mapper")
         .setService("service")
